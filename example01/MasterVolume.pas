@@ -12,6 +12,7 @@ implementation
 
 uses MMDevApi;
 
+// na podstawie https://bluexmas.tistory.com/961
 procedure doMasterVolumeMute(bMute: Boolean);
 var
   MMDeviceCollection: IMMDeviceCollection;
